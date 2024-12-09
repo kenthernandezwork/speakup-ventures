@@ -6,7 +6,7 @@ function App() {
       {/* Navigation */}
       <nav className="bg-blue-600 p-4 text-white">
         <div className="container mx-auto flex justify-between items-center">
-          <h1 className="text-xl font-bold">MentorConnect</h1>
+          <h1 className="text-xl font-bold">SpeakUp Ventures</h1>
           <ul className="flex space-x-4">
             <li><a href="#features" className="hover:text-blue-200">Features</a></li>
             <li><a href="#how-it-works" className="hover:text-blue-200">How It Works</a></li>
