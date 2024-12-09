@@ -10,7 +10,7 @@ function App() {
           <ul className="flex space-x-4">
             <li><a href="#features" className="hover:text-blue-200">Features</a></li>
             <li><a href="#how-it-works" className="hover:text-blue-200">How It Works</a></li>
-            <li><a href="#contact" className="hover:text-blue-200">Contact</a></li>
+            <li><a href="#contact" className="hover:text-blue-200">Contact us</a></li>
           </ul>
         </div>
       </nav>
@@ -67,7 +67,7 @@ function App() {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="py-16 px-4">
+      <section id="contact us" className="py-16 px-4">
         <div className="container mx-auto text-center">
           <h3 className="text-3xl font-bold mb-4">Contact Us</h3>
           <p className="text-lg text-gray-700 mb-6">Have any questions or want to learn more? Feel free to reach out!</p>
@@ -78,11 +78,18 @@ function App() {
       {/* Footer */}
       <footer className="bg-blue-600 text-white py-6">
         <div className="container mx-auto text-center">
-          <p>© 2024 MentorConnect. All Rights Reserved.</p>
+          <p>© 2024 SpeakUp Ventures. All Rights Reserved.</p>
         </div>
       </footer>
     </div>
   );
 }
+
+//Key Points:
+//Navigation Bar: Links to "Features", "How it Works", and "Contact".
+//Hero Section: Prominent message about the platform’s purpose with a CTA button to get started.
+//Features Section: Highlights the key benefits such as expert mentors, personalized guidance, and flexible scheduling.
+//How It Works Section: Steps explaining how users can sign up, choose a mentor, and start learning.
+//Footer: Contains basic copyright information.
 
 export default App;
